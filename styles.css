@@ -3,7 +3,7 @@
 /* Container to position elements */
 .container {
     position: relative;
-    width: 300px;
+    width: 750px;
     margin: 0 auto;
     text-align: center;
 }
@@ -13,6 +13,7 @@
     background-color: #f0f0f0;
     padding: 10px;
     cursor: pointer;
+    border: 1px solid #ccc;
 }
 
 /* Table container initially hidden */
@@ -22,20 +23,26 @@
     transition: max-height 0.5s ease-out;
 }
 
-/* Content table styling */
-.content-table {
+/* Promotions table styling */
+.promotions-table {
     width: 100%;
     border-collapse: collapse;
     margin-top: 10px;
 }
 
-.content-table th, .content-table td {
+.promotions-table th, .promotions-table td {
     border: 1px solid #ddd;
     padding: 8px;
+    color: white;
 }
 
-.content-table th {
-    background-color: #f2f2f2;
+.promotions-table th {
+    background-color: red;
+}
+
+.promotions-table td {
+    background-color: lightgray;
+    color: black;
 }
 
 /* Reveal the table on hover */
