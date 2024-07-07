@@ -14,6 +14,7 @@
     padding: 10px;
     cursor: pointer;
     border: 1px solid #ccc;
+    
 }
 
 /* Table container initially hidden */
@@ -49,4 +50,8 @@
 .hover-header:hover + .table-container {
     max-height: 500px; /* Adjust this value to be greater than the height of your table */
     transition: max-height 0.5s ease-in;
+}
+
+.hover-header {
+    font-family: 'Courier New', Courier, monospace;
 }
