@@ -1,0 +1,45 @@
+/* styles.css */
+
+/* Container to position elements */
+.container {
+    position: relative;
+    width: 300px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+/* Header styling */
+.hover-header {
+    background-color: #f0f0f0;
+    padding: 10px;
+    cursor: pointer;
+}
+
+/* Table container initially hidden */
+.table-container {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.5s ease-out;
+}
+
+/* Content table styling */
+.content-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+.content-table th, .content-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+.content-table th {
+    background-color: #f2f2f2;
+}
+
+/* Reveal the table on hover */
+.hover-header:hover + .table-container {
+    max-height: 500px; /* Adjust this value to be greater than the height of your table */
+    transition: max-height 0.5s ease-in;
+}
