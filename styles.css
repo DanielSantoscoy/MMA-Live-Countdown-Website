@@ -1,5 +1,11 @@
 /* styles.css */
 
+/* top title syling */
+.front-title {
+    text-align: left;
+    font-family: 'Courier New', Courier, monospace;
+}
+
 /* Container to position elements */
 .container {
     position: relative;
@@ -33,6 +39,7 @@
     width: 100%;
     border-collapse: collapse;
     margin-top: 10px;
+    font-family: 'Courier New', Courier, monospace;
 }
 
 .promotions-table th, .promotions-table td {
@@ -62,11 +69,28 @@
 
 body {
     font-family: 'Courier New', Courier, monospace; /* Default font for the entire page */
-    font-weight: bold
+    font-weight: bold;
 }
 
  /* Link styling */
  .promotions-table th a {
     color: inherit; /* Inherit text color */
     text-decoration: none; /* Remove underline */
+}
+
+/* logo styling */
+.red-fighter {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.front-title {
+    border: 2px solid black; /* Border properties: width, style, color */
+    border-radius: 10px 10px 0 0; /* Rounded top corners */
+    padding: 10px; /* Adds space inside the border */
+    text-align: center; /* Center-aligns the text */
+    font-family: 'Courier New', Courier, monospace; /* Font style */
+    background-color: lightyellow; /* Background color */
+    margin: 0; /* Remove margin to connect to the top */
 }
