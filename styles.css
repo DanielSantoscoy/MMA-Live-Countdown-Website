@@ -1,9 +1,20 @@
 /* styles.css */
 
+/** <uniquifier>: Use a unique and descriptive class name
+// <weight>: Use a value from 200 to 700**/
+
+.oswald-uniquifier {
+  font-family: "Oswald", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+}
+
 /* top title syling */
 .front-title {
     text-align: left;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: "Oswald", sans-serif;
+    background-color: red;
 }
 
 /* Container to position elements */
@@ -20,7 +31,7 @@
     padding: 10px;
     cursor: pointer;
     border: 1px solid #ccc;
-    
+    font-family: "Oswald", sans-serif;
 }
 
 /* Table container initially hidden */
@@ -39,13 +50,14 @@
     width: 100%;
     border-collapse: collapse;
     margin-top: 10px;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: 'Oswald', sans-serif;
 }
 
 .promotions-table th, .promotions-table td {
     border: 1px solid #ddd;
     padding: 8px;
     color: white;
+    font-family: "Oswald";
 }
 
 .promotions-table th {
@@ -64,12 +76,12 @@
 }
 
 .hover-header {
-    font-family: 'Courier New', Courier, monospace;
+    font-family: "Oswald", sans-serif;
 }
 
 body {
-    font-family: 'Courier New', Courier, monospace; /* Default font for the entire page */
-    font-weight: bold;
+    font-family: "Oswald", sans-serif;
+    background-color: white;
 }
 
  /* Link styling */
@@ -90,7 +102,13 @@ body {
     border-radius: 10px 10px 0 0; /* Rounded top corners */
     padding: 10px; /* Adds space inside the border */
     text-align: center; /* Center-aligns the text */
-    font-family: 'Courier New', Courier, monospace; /* Font style */
-    background-color: lightyellow; /* Background color */
+    font-family: "Oswald", sans-serif; /* Font style */
+    background-color: red; /* Background color */
     margin: 0; /* Remove margin to connect to the top */
+}
+
+.red-fighter {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
