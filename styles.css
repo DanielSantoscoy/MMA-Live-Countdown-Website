@@ -19,6 +19,7 @@
 
 /* Container to position elements */
 .container {
+    text-align: center;
     position: relative;
     width: 750px;
     margin: 0 auto;
@@ -87,7 +88,7 @@
 
 body {
     font-family: "Oswald", sans-serif;
-    background-color: white;
+    background-color: var(--color-secondary);
 }
 
  /* Link styling */
@@ -137,4 +138,12 @@ body {
 .nav-list {
     text-decoration: none;
     list-style-type: none;
+    display: flex;
+}
+
+.dark-mode {
+    --color-text: white;
+    --color-text-seconday: #d4d4d4;
+    --color-primary: #242526;
+    --color-secondary: #303132;
 }
